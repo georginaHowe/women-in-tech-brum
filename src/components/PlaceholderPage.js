@@ -11,14 +11,15 @@ const PlaceholderPage = class extends React.Component {
   render() {
     return (
       <div className="placeholder-page">
-        <div className="content has-text-centered logo">
+        <div className="content has-text-centered">
           <img
             src={logo}
             alt="Women In Tech Birmingham"
+            style={{ width: '23em', height: '25em' }}
           />
         </div>
         <div className="content has-text-centered">
-          <div className="container socials">
+          <div className="container">
                 <a title="facebook" href="https://www.facebook.com/womenintechbirmingham/">
                   <img
                     src={facebook}
