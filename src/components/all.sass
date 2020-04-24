@@ -1,17 +1,21 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-//comment for testing!
+// WITB main colours
+$witb-pinky-purple: #B882B3;
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+html 
+  height: 100%;
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
-$body-color: #333
-$black: #2b2523
+body
+  background-color: $witb-pinky-purple;
+  height: 100%;
 
+.placeholder-page 
+  padding-top: 10em;
+
+
+
+//stuff to go through, edit, remove
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -74,7 +78,7 @@ $black: #2b2523
   margin-top: 0 !important
 
 .navbar-item .icon
-  color: $primary
+  color: $witb-pinky-purple;
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -87,13 +91,13 @@ footer.footer
   background-color: transparent
 
 //Menu overrides
-$menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color:	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
-$menu-label-color: $white-ter
+//$menu-item-color: $white-ter
+//$menu-item-hover-color: $black !important
+//$menu-item-hover-background-color: $black
+//$menu-item-active-color: $kaldi-red-invert
+//$menu-item-active-background-color:	$kaldi-red-invert
+//$menu-list-border-left: 1px solid $kaldi-red-invert
+//$menu-label-color: $white-ter
 
 
 .menu-label
