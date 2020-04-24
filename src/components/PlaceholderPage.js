@@ -5,11 +5,12 @@ import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import slack from '../img/social/slack.svg'
+import meetup from '../img/social/meetup.svg'
 
 const PlaceholderPage = class extends React.Component {
   render() {
     return (
-      <div className="">
+      <div className="placeholder-page">
         <div className="content has-text-centered">
           <img
             src={logo}
@@ -46,6 +47,13 @@ const PlaceholderPage = class extends React.Component {
                     src={slack}
                     alt="Slack"
                     style={{ width: '5em', height: '5em' }}
+                  />
+                </a>
+                <a title="meetup" href="https://www.meetup.com/Women-In-Tech-Birmingham/">
+                  <img
+                    src={meetup}
+                    alt="meetup"
+                    style={{ width: '3.5em', height: '3.5em', margin: '0.8em' }}
                   />
                 </a>
           </div>
