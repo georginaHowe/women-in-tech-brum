@@ -11,7 +11,7 @@ const TemplateWrapper = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
+        <title>Women In Tech Birmingham</title>
         <meta name="description" content={description} />
 
         <link
@@ -30,12 +30,6 @@ const TemplateWrapper = ({ children }) => {
           type="image/png"
           href={`${withPrefix('/')}img/favicon-16x16.png`}
           sizes="16x16"
-        />
-
-        <link
-          rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
 
