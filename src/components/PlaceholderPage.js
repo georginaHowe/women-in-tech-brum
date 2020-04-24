@@ -51,7 +51,7 @@ const PlaceholderPage = class extends React.Component {
                 <a title="meetup" href="https://www.meetup.com/Women-In-Tech-Birmingham/">
                   <img
                     src={meetup}
-                    alt="meetup"
+                    alt="Meetup"
                     style={{ width: '3.5em', height: '3.5em', margin: '0.8em' }}
                   />
                 </a>
