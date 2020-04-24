@@ -4,6 +4,8 @@ import logo from '../img/logo.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
+import slack from '../img/social/slack.svg'
+import meetup from '../img/social/meetup.svg'
 
 const PlaceholderPage = class extends React.Component {
   render() {
@@ -38,6 +40,20 @@ const PlaceholderPage = class extends React.Component {
                     src={instagram}
                     alt="Instagram"
                     style={{ width: '3em', height: '3em', margin: '1em' }}
+                  />
+                </a>
+                <a title="slack" href="https://join.slack.com/t/womenintech-meetup/shared_invite/zt-5xn8mjeq-SOHOGWEv2Gvq5NYDkN~nrw">
+                  <img
+                    src={slack}
+                    alt="Slack"
+                    style={{ width: '5em', height: '5em' }}
+                  />
+                </a>
+                <a title="meetup" href="https://www.meetup.com/Women-In-Tech-Birmingham/">
+                  <img
+                    src={meetup}
+                    alt="meetup"
+                    style={{ width: '3.5em', height: '3.5em', margin: '0.8em' }}
                   />
                 </a>
           </div>
